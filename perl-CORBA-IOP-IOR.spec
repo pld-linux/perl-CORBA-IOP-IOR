@@ -3,7 +3,7 @@ Summary:	CORBA-IOP-IOR perl module
 Summary(pl):	Modu³ perla CORBA-IOP-IOR
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
