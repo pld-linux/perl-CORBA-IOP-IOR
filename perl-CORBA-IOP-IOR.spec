@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	CORBA
-%define		pnam	IOP-IOR
+%define	pdir	CORBA
+%define	pnam	IOP-IOR
 Summary:	CORBA::IOP::IOR - decode, munge, and re-encode CORBA IORs
 Summary(pl):	CORBA::IOP::IOR - rozkodowanie, transformacja i ponowne zakodowanie 
 Name:		perl-CORBA-IOP-IOR
