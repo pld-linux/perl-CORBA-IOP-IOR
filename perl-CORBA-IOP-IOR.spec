@@ -1,23 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CORBA
 %define		pnam	IOP-IOR
-Summary:	CORBA::IOP::IOR Perl module
-Summary(cs):	Modul CORBA::IOP::IOR pro Perl
-Summary(da):	Perlmodul CORBA::IOP::IOR
-Summary(de):	CORBA::IOP::IOR Perl Modul
-Summary(es):	Módulo de Perl CORBA::IOP::IOR
-Summary(fr):	Module Perl CORBA::IOP::IOR
-Summary(it):	Modulo di Perl CORBA::IOP::IOR
-Summary(ja):	CORBA::IOP::IOR Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	CORBA::IOP::IOR ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul CORBA::IOP::IOR
-Summary(pl):	Modu³ Perla CORBA::IOP::IOR
-Summary(pt):	Módulo de Perl CORBA::IOP::IOR
-Summary(pt_BR):	Módulo Perl CORBA::IOP::IOR
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl CORBA::IOP::IOR
-Summary(sv):	CORBA::IOP::IOR Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl CORBA::IOP::IOR
-Summary(zh_CN):	CORBA::IOP::IOR Perl Ä£¿é
+Summary:	CORBA::IOP::IOR - decode, munge, and re-encode CORBA IORs
+Summary(pl):	CORBA::IOP::IOR - rozkodowanie, transformacja i ponowne zakodowanie 
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
 Release:	10
@@ -32,55 +17,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CORBA::IOP::IOR - Decode, munge, and re-encode CORBA IORs.
-
-%description -l cs
-Modul CORBA::IOP::IOR pro Perl.
-
-%description -l da
-Perlmodul CORBA::IOP::IOR.
-
-%description -l de
-CORBA::IOP::IOR Perl Modul.
-
-%description -l es
-Módulo de Perl CORBA::IOP::IOR.
-
-%description -l fr
-Module Perl CORBA::IOP::IOR.
-
-%description -l it
-Modulo di Perl CORBA::IOP::IOR.
-
-%description -l ja
-CORBA::IOP::IOR Perl ¥â¥¸¥å¡¼¥ë
-
-%description -l ko
-CORBA::IOP::IOR ÆÞ ¸ðÁÙ.
-
-%description -l nb
-Perlmodul CORBA::IOP::IOR.
+CORBA::IOP::IOR is Perl module that decodes, munges, and re-encodes
+CORBA IORs.
 
 %description -l pl
-Modu³ perla CORBA::IOP::IOR
-
-%description -l pt
-Módulo de Perl CORBA::IOP::IOR.
-
-%description -l pt_BR
-Módulo Perl CORBA::IOP::IOR.
-
-%description -l ru
-íÏÄÕÌØ ÄÌÑ Perl CORBA::IOP::IOR.
-
-%description -l sv
-CORBA::IOP::IOR Perlmodul.
-
-%description -l uk
-íÏÄÕÌØ ÄÌÑ Perl CORBA::IOP::IOR.
-
-%description -l zh_CN
-CORBA::IOP::IOR Perl Ä£¿é
+CORBA::IOP::IOR jest modu³em Perla, który rozkodowuje, transformuje i
+ponownie koduje IOR-y CORBA.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
