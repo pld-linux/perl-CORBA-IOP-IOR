@@ -10,7 +10,7 @@ Summary(fr):	Module Perl CORBA::IOP::IOR
 Summary(it):	Modulo di Perl CORBA::IOP::IOR
 Summary(ja):	CORBA::IOP::IOR Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	CORBA::IOP::IOR ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul CORBA::IOP::IOR
+Summary(nb):	Perlmodul CORBA::IOP::IOR
 Summary(pl):	Modu³ Perla CORBA::IOP::IOR
 Summary(pt):	Módulo de Perl CORBA::IOP::IOR
 Summary(pt_BR):	Módulo Perl CORBA::IOP::IOR
@@ -58,7 +58,7 @@ CORBA::IOP::IOR Perl ¥â¥¸¥å¡¼¥ë
 %description -l ko
 CORBA::IOP::IOR ÆÞ ¸ðÁÙ.
 
-%description -l no
+%description -l nb
 Perlmodul CORBA::IOP::IOR.
 
 %description -l pl
