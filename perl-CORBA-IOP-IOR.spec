@@ -86,7 +86,7 @@ CORBA::IOP::IOR Perl Ä£¿é
 %patch -p1
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
