@@ -3,12 +3,12 @@ Summary:	CORBA-IOP-IOR perl module
 Summary(pl):	Modu³ perla CORBA-IOP-IOR
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/CORBA/CORBA-IOP-IOR-%{version}.tar.gz
-Patch0:		perl-CORBA-IOP-IOR-paths.patch
+Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -39,7 +39,7 @@ install examples/* $RPM_BUILD_ROOT%{_prefix}/src/examples/%{name}-%{version}
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/CORBA/IOP
   sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
+  mv -f .packlist.new .packlist
 )
 
 gzip -9nf README
