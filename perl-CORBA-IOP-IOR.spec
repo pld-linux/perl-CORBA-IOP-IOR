@@ -41,8 +41,7 @@ install examples/* $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
   mv .packlist.new .packlist
 )
 
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man3/* \
-        README
+gzip -9nf README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -53,8 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{perl_sitelib}/CORBA/IOP
 %{perl_sitearch}/auto/CORBA/IOP
-
-%{_mandir}/man3/*
 
 %dir /usr/src/examples/%{name}-%{version}
 %attr(755,root,root) /usr/src/examples/%{name}-%{version}/*
