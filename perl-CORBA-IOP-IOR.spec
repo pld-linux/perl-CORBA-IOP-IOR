@@ -27,7 +27,7 @@ Modu³ perla CORBA-IOP-IOR
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
