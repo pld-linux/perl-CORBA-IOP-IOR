@@ -1,0 +1,16 @@
+--- CORBA-IOP-IOR-0.1/examples/decodeIOR.pl	Wed Jun 10 13:31:09 1998
++++ CORBA-IOP-IOR-0.1/examples.new/decodeIOR.pl	Fri Oct  1 23:32:05 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require CORBA::IOP::IOR;
+ 
+--- CORBA-IOP-IOR-0.1/examples/mungeIOR.pl	Wed Jun 10 14:35:09 1998
++++ CORBA-IOP-IOR-0.1/examples.new/mungeIOR.pl	Fri Oct  1 23:32:11 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -w
++#!/usr/bin/perl -w
+ 
+ require CORBA::IOP::IOR;
+ use Getopt::Std;
