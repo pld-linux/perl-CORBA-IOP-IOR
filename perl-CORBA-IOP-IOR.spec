@@ -1,12 +1,11 @@
-%define	pdir	CORBA
-%define	pnam	IOP-IOR
 %include	/usr/lib/rpm/macros.perl
+%define		pdir	CORBA
+%define		pnam	IOP-IOR
 Summary:	CORBA-IOP-IOR perl module
 Summary(pl):	Modu³ perla CORBA-IOP-IOR
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
 Release:	8
-
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ CORBA-IOP-IOR - Decode, munge, and re-encode CORBA IORs.
 Modu³ perla CORBA-IOP-IOR
 
 %prep
-%setup -q -n CORBA-IOP-IOR-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p1
 
 %build
