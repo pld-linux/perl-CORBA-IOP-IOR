@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	CORBA
 %define		pnam	IOP-IOR
-Summary:	CORBA-IOP-IOR perl module
-Summary(pl):	Modu³ perla CORBA-IOP-IOR
+Summary:	CORBA::IOP::IOR perl module
+Summary(pl):	Modu³ perla CORBA::IOP::IOR
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CORBA-IOP-IOR - Decode, munge, and re-encode CORBA IORs.
+CORBA::IOP::IOR - Decode, munge, and re-encode CORBA IORs.
 
 %description -l pl
-Modu³ perla CORBA-IOP-IOR
+Modu³ perla CORBA::IOP::IOR
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
