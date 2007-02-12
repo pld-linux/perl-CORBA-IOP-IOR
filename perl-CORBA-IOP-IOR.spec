@@ -2,7 +2,7 @@
 %define		pdir	CORBA
 %define		pnam	IOP-IOR
 Summary:	CORBA::IOP::IOR - decode, munge, and re-encode CORBA IORs
-Summary(pl):	CORBA::IOP::IOR - rozkodowanie, transformacja i ponowne zakodowanie 
+Summary(pl.UTF-8):   CORBA::IOP::IOR - rozkodowanie, transformacja i ponowne zakodowanie 
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
 Release:	11
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 CORBA::IOP::IOR is Perl module that decodes, munges, and re-encodes
 CORBA IORs.
 
-%description -l pl
-CORBA::IOP::IOR jest modu≥em Perla, ktÛry rozkodowuje, transformuje i
+%description -l pl.UTF-8
+CORBA::IOP::IOR jest modu≈Çem Perla, kt√≥ry rozkodowuje, transformuje i
 ponownie koduje IOR-y CORBA.
 
 %prep
