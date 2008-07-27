@@ -5,7 +5,7 @@ Summary:	CORBA::IOP::IOR - decode, munge, and re-encode CORBA IORs
 Summary(pl.UTF-8):	CORBA::IOP::IOR - rozkodowanie, transformacja i ponowne zakodowanie 
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
-Release:	11
+Release:	12
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
