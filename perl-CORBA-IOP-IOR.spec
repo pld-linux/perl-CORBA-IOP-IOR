@@ -1,8 +1,8 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	CORBA
 %define		pnam	IOP-IOR
+%include	/usr/lib/rpm/macros.perl
 Summary:	CORBA::IOP::IOR - decode, munge, and re-encode CORBA IORs
-Summary(pl.UTF-8):	CORBA::IOP::IOR - rozkodowanie, transformacja i ponowne zakodowanie 
+Summary(pl.UTF-8):	CORBA::IOP::IOR - rozkodowanie, transformacja i ponowne zakodowanie
 Name:		perl-CORBA-IOP-IOR
 Version:	0.1
 Release:	12
@@ -11,8 +11,9 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f023de34d86dee8b76eff1785910e27b
 Patch0:		%{name}-paths.patch
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/CORBA-IOP-IOR/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -40,7 +41,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
